@@ -146,7 +146,7 @@ function saveTask() {
     if (errArr.length > 0) {
         for (let i = 0; i < errArr.length; i++) {
             const list = document.createElement("li");
-            list.innerHTML = "<h3>" + errArr[i] + "</h3>";
+            list.innerHTML = "<h2>" + errArr[i] + "</h2>";
             errList.appendChild(list);
             errDiv.appendChild(errList);
         }
