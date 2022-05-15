@@ -21,7 +21,7 @@ function createSmallNote(smallNotesArr) {
 
             const dateAndTime = document.createElement("div");
 
-            const glyph = document.createElement("span");
+            const glyph = document.createElement("i");
             glyph.setAttribute("class", "glyphicon glyphicon-remove");
             glyph.setAttribute("onclick", "fade(this.parentElement)");
             glyph.setAttribute("slot", i);
